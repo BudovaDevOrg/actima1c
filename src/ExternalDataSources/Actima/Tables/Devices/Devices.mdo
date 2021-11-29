@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f621459f-f32a-4b72-9b76-71db73819d0b">
+  <producedTypes>
+    <refType typeId="87a37ec5-2a45-48ab-a875-70d2d4cf95d7" valueTypeId="c7c82751-0ab4-41f8-963f-e6244850f6c7"/>
+    <listType typeId="238ebaf5-dc12-42e9-a547-c78c4afd3c61" valueTypeId="d7190af1-f178-4ded-83b9-44c12b26ab71"/>
+    <objectType typeId="4e115869-86c3-450d-bf8b-a1ccbdadc706" valueTypeId="c3dd5767-ecdf-4d4a-8556-6a6b5304c44e"/>
+    <managerType typeId="d99eecdb-650a-485c-b7ac-cc9d28695a8e" valueTypeId="04bd92cf-46a3-43b9-91aa-a6c8925b8ddf"/>
+    <recordManagerType typeId="9c8f4a6a-7ed1-4ca0-987e-94ee7ef30084" valueTypeId="c9340af8-c5fe-4efb-b79f-81b354ee9bf2"/>
+    <recordSetType typeId="378c366f-56c3-45b8-8339-2020a8f0e98b" valueTypeId="a6406599-7e07-4a8a-8b02-bd03514030af"/>
+    <recordType typeId="44171f50-ecee-4f67-aafd-565e6e3496a8" valueTypeId="9d8dc7e4-94e4-42c0-bda4-5d1395140738"/>
+    <recordKeyType typeId="4dddef60-d3df-4f28-b943-ddcc8d71f077" valueTypeId="96b46899-07d3-4677-96c8-9abc20a43388"/>
+  </producedTypes>
+  <name>Devices</name>
+  <synonym>
+    <key>ru</key>
+    <value>Devices</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.Devices</nameInDataSource>
+  <keyFields>ExternalDataSource.Actima.Table.Devices.Field.DeviceID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Actima.Table.Devices.Field.DeviceID</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="1ca41627-7114-4d7f-9d1f-60c2729bccc3">
+    <name>DeviceID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>DeviceID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="df19a34c-00cf-4f56-a429-ae6d2b33ebee">
+    <name>Name</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Name</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="66af95ba-3b44-47f8-8a59-ce081e83f104">
+    <name>ZoneBefore</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.Zones</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ZoneBefore</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="04e7ee0c-6dad-45bb-a835-fa782e17fed8">
+    <name>ZoneAfter</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.Zones</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ZoneAfter</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="07d260f4-8fb9-4f4c-b98f-e07672eab296">
+    <name>HardwareID</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>HardwareID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="72a32345-3dc9-44c4-91f0-0646f93809b4">
+    <name>Direction</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>Direction</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="04f13f00-9223-4ab5-9a56-5d528fc08e73">
+    <name>CardBits</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CardBits</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="8de77f01-1ee3-45eb-a67c-deb32bc3154a">
+    <name>ConfirmEnabled</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ConfirmEnabled</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="cbd42249-01f2-4aa8-ad90-7251c3ee2abf">
+    <name>LastLogRecord</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>LastLogRecord</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="0c2edd54-40c1-4787-98c8-e0e6a22749d6">
+    <name>LastAttLogRecord</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>LastAttLogRecord</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b9b7747-b030-4e2f-ad3d-801c1be016f6">
+  <producedTypes>
+    <refType typeId="82c4597a-76d2-4c00-80ac-25a570b1d65d" valueTypeId="8fd71123-687b-45e7-9b5a-d1be9715dd2e"/>
+    <listType typeId="95ab9791-a640-4859-bc9b-b28918ce02be" valueTypeId="c650b5cc-486b-45a2-aace-426b9e4c4853"/>
+    <objectType typeId="5a7d68bc-4da6-42b7-ba45-819e61603298" valueTypeId="094c98f3-0d36-464a-9ff8-720d6a0d3457"/>
+    <managerType typeId="f3aac0c8-ea26-4cdd-883b-4af59cfd5863" valueTypeId="dad4cbd8-777d-4cd5-a21c-e394de4b42dd"/>
+    <recordManagerType typeId="951777b0-129c-46c7-b37e-4368063c09a6" valueTypeId="4dfd87cf-e3cf-40d7-99f8-35b940098c50"/>
+    <recordSetType typeId="0abc22df-064e-414d-acf4-59780143aff5" valueTypeId="d4f8a98f-aed0-431e-b560-21a6d9acd5fb"/>
+    <recordType typeId="3d4830f8-a2c5-4c5a-a11e-f8444e9cdf2d" valueTypeId="c31b36f4-f5ee-4cb4-bd48-99ef43e51715"/>
+    <recordKeyType typeId="bc023d4b-a3ba-4091-ac14-42c275aa0fc6" valueTypeId="09f6b367-4e0b-4bc1-b78d-2f5a0dadc6c3"/>
+  </producedTypes>
+  <name>Employees</name>
+  <synonym>
+    <key>ru</key>
+    <value>Employees</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.Employees</nameInDataSource>
+  <keyFields>ExternalDataSource.Actima.Table.Employees.Field.EmployeeID</keyFields>
+  <presentationField>ExternalDataSource.Actima.Table.Employees.Field.TaxNumber</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Actima.Table.Employees.Field.EmployeeID</inputByString>
+  <inputByString>ExternalDataSource.Actima.Table.Employees.Field.TaxNumber</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="c5c5a641-8f6a-4255-9085-8485dfe49d1f">
+    <name>EmployeeID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>EmployeeID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="1346f667-5c47-4ee7-8c88-f979d3a4c4f2">
+    <name>AccountNumber</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>AccountNumber</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="b816355e-357c-4cd8-af0c-f9827e9da213">
+    <name>Engaged</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>Engaged</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="28c212d8-9827-43a4-8b87-a0b272c38049">
+    <name>Fired</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>Fired</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="36d4dcd8-5986-4070-a105-a281d495c58c">
+    <name>TaxNumber</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>TaxNumber</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

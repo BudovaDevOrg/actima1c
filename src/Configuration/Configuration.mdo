@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8d2105d-8427-47e9-bad4-a73c49c224db">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1045101f-989c-4375-abe0-8e550afc3fc4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9ee50855-c05c-4889-8ae0-4094ff137f8b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="22c0e373-a2af-4a0b-ba7a-db8d24cbb025"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="98fc2de4-6a36-42f9-aed0-78660fa2fb15"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="047749f5-729d-4ac6-99a6-d01e3d83baaa"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="38f5a797-6580-4110-95ee-23960c8223e4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fae0dd6c-2fdf-4d78-97dc-799e82741532"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Budova Soft, 2021</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="66f83659-4c3e-4048-84c4-08630a09cdf3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Actima</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.вдВнешниеИсточникиДанных</commonModules>
+  <catalogs>Catalog.вдНастройкиПодключенияВнешнихИсточниковДанных</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <enums>Enum.вдТипыСУБД</enums>
+  <reports>Report.вдСКД_РегистрацияСотрудников</reports>
+  <dataProcessors>DataProcessor.вдНастройкаВнешнихИсточниковДанных</dataProcessors>
+  <informationRegisters>InformationRegister.КадровыйПлан</informationRegisters>
+  <externalDataSources>ExternalDataSource.Actima</externalDataSources>
+</mdclass:Configuration>

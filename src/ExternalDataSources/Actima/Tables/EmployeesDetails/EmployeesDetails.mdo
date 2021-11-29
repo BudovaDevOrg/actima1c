@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54ff4602-a162-4595-b521-4d63b74faddf">
+  <producedTypes>
+    <refType typeId="9354c96a-833c-4e04-b0ea-6e2bf17031be" valueTypeId="7354a2df-43f6-4d41-8b7f-6fb68f4e6095"/>
+    <listType typeId="88e47949-428d-4b16-a822-d7b1018f32d3" valueTypeId="5e708fdb-7ac8-4e86-9a09-b9980a87c276"/>
+    <objectType typeId="f74fc67a-9680-4fdc-bb05-d3664dbfd86b" valueTypeId="e478eb3e-61b8-4b50-b700-bd4a4eb3b498"/>
+    <managerType typeId="277dfa9b-23c4-455a-9c88-b497e735e8f3" valueTypeId="66f580d0-38d1-4291-a076-6546373621c8"/>
+    <recordManagerType typeId="48c73605-c08e-4a7b-9208-b6bb3e3984aa" valueTypeId="1f222355-85b9-4f4b-9ae0-5e95e75ba5fc"/>
+    <recordSetType typeId="f8d70834-3dc5-4045-8a62-3426380b3316" valueTypeId="3f3a3165-0977-42c5-b121-d838afa28e6d"/>
+    <recordType typeId="b7540f09-817f-43a5-9eac-63f84dbbaee3" valueTypeId="ab0f62c5-4e4a-49e9-90da-8f8f65a3990d"/>
+    <recordKeyType typeId="0dbb5f85-1df2-4d43-9abb-a80e7db7fe46" valueTypeId="34761b92-44d0-4d33-b719-1a093b794430"/>
+  </producedTypes>
+  <name>EmployeesDetails</name>
+  <synonym>
+    <key>ru</key>
+    <value>Employees details</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.EmployeesDetails</nameInDataSource>
+  <keyFields>ExternalDataSource.Actima.Table.EmployeesDetails.Field.RecordID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Actima.Table.EmployeesDetails.Field.RecordID</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="ea3056a6-333b-4df6-8088-04125d2173ba">
+    <name>RecordID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>RecordID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="a98d9a62-345c-48bd-bd0e-f75e39ee380d">
+    <name>EmployeeID</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.Employees</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>EmployeeID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="8e405a17-fdc5-4420-999c-399fd3d38bcc">
+    <name>StartDate</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>StartDate</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="da5ce7cd-7b76-4184-920a-a42361d72a8b">
+    <name>EndDate</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>EndDate</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="dbd29f6b-7094-4285-abf5-44decb744890">
+    <name>FirstName</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>FirstName</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="6c540500-175f-45f4-85bc-3c5f23eef8b8">
+    <name>LastName</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>LastName</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="228ef5ec-9fb4-4def-8b5b-c8a0793a4dc0">
+    <name>MiddleName</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>MiddleName</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="e2506bfd-9cbb-4eef-a1f0-53894deeea03">
+    <name>DepartmentID</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.Departments</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>DepartmentID</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="7b2463c3-4edb-45c8-af4b-df4852a7b11e">
+    <name>ManualyCreated</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ManualyCreated</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="fcf33154-59fe-4762-8083-3da4fee7de97">
+    <name>AddInfo</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>AddInfo</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

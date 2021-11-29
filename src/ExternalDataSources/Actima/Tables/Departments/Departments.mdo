@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b2360e3-a175-465d-b7c2-21668d313336">
+  <producedTypes>
+    <refType typeId="48242274-71cd-4e7b-a7c0-1a8d41c9fde6" valueTypeId="8db39ec0-2f68-43ab-aee6-49f0b03c8796"/>
+    <listType typeId="03d102ca-3c3e-4e01-8ef9-0f0bdd268aae" valueTypeId="a22ffb29-4628-413a-9143-2b1bf0aeda7f"/>
+    <objectType typeId="b6d384c4-d469-4943-adb5-91fee049b985" valueTypeId="fd6c8249-7863-4079-92d2-a34a48002c85"/>
+    <managerType typeId="db74c48a-4f0b-4a7f-94ef-08f093d34eb2" valueTypeId="96332ff1-fd55-4707-a1fd-75b79256918d"/>
+    <recordManagerType typeId="e65b094a-209a-4ba7-bdd6-ec1d484b4202" valueTypeId="ea4f71ac-dca4-445b-87d2-750bf5e716fc"/>
+    <recordSetType typeId="a53fd5fc-4ab4-47ac-8841-05965b524a68" valueTypeId="197f7c4e-6413-4c49-b86f-e4f137003533"/>
+    <recordType typeId="770a08b0-6720-435d-b743-d1c0e71e4eb9" valueTypeId="83ddcca8-37de-42d3-aaeb-3b5647404f53"/>
+    <recordKeyType typeId="71979866-2b79-4736-9f6e-80539a61a4e0" valueTypeId="3ddadcce-c4ad-4cc0-ab2e-4f4a95b8a2c2"/>
+  </producedTypes>
+  <name>Departments</name>
+  <synonym>
+    <key>ru</key>
+    <value>Departments</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.Departments</nameInDataSource>
+  <keyFields>ExternalDataSource.Actima.Table.Departments.Field.DepartmentID</keyFields>
+  <presentationField>ExternalDataSource.Actima.Table.Departments.Field.Name</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Actima.Table.Departments.Field.DepartmentID</inputByString>
+  <inputByString>ExternalDataSource.Actima.Table.Departments.Field.Name</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="45c4da28-e7bb-4222-9342-fc1223f7b630">
+    <name>DepartmentID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>DepartmentID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c44d837e-4d14-4abd-ba63-89a58bd99c45">
+    <name>RootID</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.Departments</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>RootID</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="2cf22114-70f6-4bfa-a71f-0895be96d1b4">
+    <name>Name</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Name</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="d1e0260a-491a-4bf2-b516-ba2bafd537ab">
+    <name>Code</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Code</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="6e9c5ef1-3beb-460f-83ab-44f74ccde5d0">
+    <name>Patron</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.Employees</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Patron</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

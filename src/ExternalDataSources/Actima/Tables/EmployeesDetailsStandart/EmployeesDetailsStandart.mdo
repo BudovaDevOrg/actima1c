@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="110deebc-a8e2-4d26-b8a0-03d03aa1e4f7">
+  <producedTypes>
+    <refType typeId="2b6f7af2-b631-454d-ba7e-da94db3924aa" valueTypeId="8444233f-e09d-47fe-9a0c-60fd7779a738"/>
+    <listType typeId="9d960742-9387-4a5d-8a5f-0842aa84ac98" valueTypeId="2af944ef-f1c0-4e78-8053-6e40303ca837"/>
+    <objectType typeId="9c6f1034-2a44-4312-b923-bf496c8b19cb" valueTypeId="885b2f36-c148-4c0b-8080-d56818f2f66e"/>
+    <managerType typeId="81851c56-6b42-4429-b724-941e656cfd7c" valueTypeId="40bb7fab-51d4-495b-a441-8be4990acb75"/>
+    <recordManagerType typeId="25fea4b7-9d07-4f5b-ac70-7eaceda3c173" valueTypeId="fb9cd481-daaa-400d-8cd4-3bb2fd8e3a40"/>
+    <recordSetType typeId="da065236-3e15-4180-a261-7707b80edb14" valueTypeId="2dd33a88-da7c-4ef0-bbbd-010b5b925b0e"/>
+    <recordType typeId="db74acc1-bce2-43ad-a4e5-0db48d7d9c36" valueTypeId="805ab03b-f7c4-4ef8-a92c-d5ce5f7d7197"/>
+    <recordKeyType typeId="d6f74f95-2be7-4824-84a2-9460ff085f31" valueTypeId="fb238904-b778-40cb-8dfa-4ebcd6c7dee4"/>
+  </producedTypes>
+  <name>EmployeesDetailsStandart</name>
+  <synonym>
+    <key>ru</key>
+    <value>Employees details standart</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.EmployeesDetailsStandart</nameInDataSource>
+  <keyFields>ExternalDataSource.Actima.Table.EmployeesDetailsStandart.Field.RecordID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Actima.Table.EmployeesDetailsStandart.Field.RecordID</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="fd1ddf77-f918-4110-bbc1-b1e83c132f0c">
+    <name>RecordID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>RecordID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="5771f5a3-f581-4f6e-aec0-7aeade8da1e8">
+    <name>Gender</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Gender</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="fdb9acf4-4ea8-43d9-aff0-efc3b1c51a1a">
+    <name>WorkingPhone</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>WorkingPhone</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="668f4044-69e6-44be-9893-b59513302abe">
+    <name>HomePhone</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>HomePhone</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="37402eca-b694-472d-8194-dcf716b5eca3">
+    <name>Address</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Address</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="e1ee852f-da7f-4139-9833-ad27de07e204">
+    <name>Description</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Description</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="66d768d6-9132-40fa-b1b6-ace91c71356b">
+    <name>ParkingSpace</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>ParkingSpace</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="cb597a0c-33f5-4dad-b3f3-79d63e88759b">
+    <name>AddInfo</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>AddInfo</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="002003b3-2a6f-45d9-8149-c86be920d437">
+    <name>Hostel</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>Hostel</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ed19ecf-f213-4a1a-8ed6-8cdb71ce34fe">
+  <producedTypes>
+    <objectType typeId="fb2b0a84-2fca-4b2a-b773-6718905423a8" valueTypeId="aab70f01-9795-4c71-8347-bc0f86d338c4"/>
+    <managerType typeId="6ab258d0-92b6-4de6-8955-73e43982dc4c" valueTypeId="d676fca2-e6fb-4f0a-8ef1-93f613b2c6fc"/>
+  </producedTypes>
+  <name>вдСКД_РегистрацияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>СКД. Регистрация сотрудников</value>
+  </synonym>
+  <defaultForm>Report.вдСКД_РегистрацияСотрудников.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.вдСКД_РегистрацияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6ec38416-5372-4b20-8018-4fa3d7648572">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="000fdb0b-c848-4b55-8f3d-e34828479bd3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="dd96112d-523c-4548-a95a-71596ceaab3c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="1d96ec68-dc34-428f-bd3b-deb58f686d92">
+    <name>СКДРегистрацияСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКД. Регистрация сотрудников</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

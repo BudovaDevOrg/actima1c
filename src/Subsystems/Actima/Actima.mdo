@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ae81815-8a5b-4721-84ec-00666c4de232">
+  <name>Actima</name>
+  <synonym>
+    <key>ru</key>
+    <value>Actima</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.вдНастройкиПодключенияВнешнихИсточниковДанных</content>
+  <content>Enum.вдТипыСУБД</content>
+  <content>DataProcessor.вдНастройкаВнешнихИсточниковДанных</content>
+  <content>CommonModule.вдВнешниеИсточникиДанных</content>
+  <content>Role.ПолныеПрава</content>
+  <content>f64634ab-e7e3-4678-a3cd-e61207b846d8</content>
+  <content>bef7af1e-af89-4ee9-92ca-59248fafa82f</content>
+  <subsystems>ТаблицыАктима</subsystems>
+  <subsystems>Кадры</subsystems>
+</mdclass:Subsystem>

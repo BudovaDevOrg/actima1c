@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d54789-598b-43e1-8a4a-cc9fe1b81eaf">
+  <producedTypes>
+    <refType typeId="1a883333-143d-4a2a-a449-acfefa8a990a" valueTypeId="140f7d8c-d067-4778-b0a1-a20d99becb93"/>
+    <listType typeId="20e6c8a6-95af-4492-9726-d5fd8434a4b9" valueTypeId="3a48f79a-c8ae-4de8-97b3-bcba4d026dc5"/>
+    <objectType typeId="e1b2c543-0fdb-4325-afc4-5fbe52f703c9" valueTypeId="4f8772a4-5458-4447-9115-7f558ebbc7e3"/>
+    <managerType typeId="7ca0a39a-5955-499f-be93-507487ff866b" valueTypeId="30967aca-3c55-4e98-abf3-2e6df63c7faf"/>
+    <recordManagerType typeId="b50802ac-7e97-45f4-8b2d-dae22e9c34ca" valueTypeId="afaf62a6-e340-414d-8d84-6eaadf5318a8"/>
+    <recordSetType typeId="1f8507fa-8df1-41c2-bd3a-cc3270d41440" valueTypeId="87809671-467c-4a25-8589-c02a9289c137"/>
+    <recordType typeId="e4f65ae8-afa0-4e41-ab62-f3c482368b1b" valueTypeId="531668c1-7a4c-4ce4-93a0-c2b564686973"/>
+    <recordKeyType typeId="218bf14d-04ba-4cc1-8f0e-bebb596a6a76" valueTypeId="465f06c2-eeff-464b-87ff-49b820f4ac33"/>
+  </producedTypes>
+  <name>Registrations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Registrations</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.Registrations</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <keyFields>ExternalDataSource.Actima.Table.Registrations.Field.CardEntityID</keyFields>
+  <keyFields>ExternalDataSource.Actima.Table.Registrations.Field.DeviceID</keyFields>
+  <keyFields>ExternalDataSource.Actima.Table.Registrations.Field.RegistrationTime</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="2cca0890-8145-4661-bfe0-2476476e3356">
+    <name>CardEntityID</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.CardsEntity</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>CardEntityID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="1078fbde-5456-49bf-a2b0-f0a500af79c0">
+    <name>DeviceID</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.Devices</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>DeviceID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="cffaff2e-b478-44d8-88e3-0eac6b36d161">
+    <name>RegistrationTime</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>RegistrationTime</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="49027741-3bf1-40ef-be37-71bde6a1ee79">
+    <name>Hidden</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>Hidden</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e94ea9ac-4451-4c84-bbd2-8d0ea16ccf58">
+  <producedTypes>
+    <objectType typeId="869a9f4d-8310-440c-8951-b3d1b55c4dfd" valueTypeId="4ef9a0aa-5a56-4d96-a2e0-6acbc7b4f032"/>
+    <refType typeId="13110dc2-4064-4e2b-a386-13d6b8523c69" valueTypeId="95ae492a-295b-4739-872f-882e51b67907"/>
+    <selectionType typeId="b7a77fb2-d60d-44fa-bc56-94af0dff1f90" valueTypeId="eb976662-bae2-49ff-bb17-a77b9d8ae23c"/>
+    <listType typeId="4724ea39-f9e2-445d-a6ad-3bc56c8af5bd" valueTypeId="55649c18-5b86-4976-a10a-a8ad950b7963"/>
+    <managerType typeId="303c9d32-2662-42b8-94b5-831384ea1fb8" valueTypeId="a85c5e35-be75-49c1-bc7b-2528ea89c316"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2697ac08-316a-4f62-999a-6bb7974480eb">
+    <name>КодПоДРФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код по ДРФО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

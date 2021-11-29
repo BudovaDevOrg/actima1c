@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5311012-41a0-4fe7-b93e-41028a426056">
+  <producedTypes>
+    <managerType typeId="5a84d98f-0fef-4095-8ade-a1f82e68f262" valueTypeId="c579885a-0f7b-4bc7-881b-5cf3f0391911"/>
+    <tablesManagerType typeId="8d3b0d72-ef8c-4979-aef8-fd081a3f08a1" valueTypeId="34dbd173-95aa-4997-a365-9d986aa5155b"/>
+    <cubesManagerType typeId="e43ad351-8160-4ffd-a6f5-8cfc74b6de6b" valueTypeId="53dc123d-bdb1-41b1-ac6a-6595fab75c67"/>
+  </producedTypes>
+  <name>Actima</name>
+  <synonym>
+    <key>ru</key>
+    <value>Actima</value>
+  </synonym>
+  <tables>ExternalDataSource.Actima.Table.Departments</tables>
+  <tables>ExternalDataSource.Actima.Table.Employees</tables>
+  <tables>ExternalDataSource.Actima.Table.AccessCards</tables>
+  <tables>ExternalDataSource.Actima.Table.AllRegistrations</tables>
+  <tables>ExternalDataSource.Actima.Table.CardsEntity</tables>
+  <tables>ExternalDataSource.Actima.Table.Devices</tables>
+  <tables>ExternalDataSource.Actima.Table.EmployeesDetails</tables>
+  <tables>ExternalDataSource.Actima.Table.Registrations</tables>
+  <tables>ExternalDataSource.Actima.Table.Zones</tables>
+  <tables>ExternalDataSource.Actima.Table.EmployeesDetailsStandart</tables>
+</mdclass:ExternalDataSource>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5264b989-d139-4fe0-9ff9-bc4bc3f4b78d">
+  <producedTypes>
+    <refType typeId="e0a886ff-a04b-46d3-a5d1-e1c56451c1b5" valueTypeId="75ab9363-9eaa-4ca1-8265-7a1b7d129f25"/>
+    <listType typeId="d336109c-4260-49d4-8966-7ec60bea615f" valueTypeId="a6d0e65c-2909-4134-a71f-dcfd0d06bdeb"/>
+    <objectType typeId="3d6caf5f-95e6-438a-8c6d-e8dd3f627848" valueTypeId="93a843ab-3326-4054-9a7d-a5b6822db94f"/>
+    <managerType typeId="ca65c23b-4bad-4b9b-8821-fc1db6af73f1" valueTypeId="a9746b3c-e971-42bb-abf6-02faf590c99d"/>
+    <recordManagerType typeId="c7327e27-1a94-4a6c-a2d5-1d50a6e64357" valueTypeId="c4ab604a-bd01-424a-b35c-0956f566b009"/>
+    <recordSetType typeId="5ea96bee-323e-4f4d-a10f-7c2ece3e3cb4" valueTypeId="a4637977-e1d2-472a-a5b1-7f03ffd5e56d"/>
+    <recordType typeId="2b58b684-2167-48d5-bd45-ff4e3bfb29d5" valueTypeId="805ae670-8207-4af7-87a4-12edf486435a"/>
+    <recordKeyType typeId="94fa516c-e35c-477c-94e3-f804bbc8ecb1" valueTypeId="60c8011a-e90a-4647-8029-f29adc3cc43f"/>
+  </producedTypes>
+  <name>Zones</name>
+  <synonym>
+    <key>ru</key>
+    <value>Zones</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.Zones</nameInDataSource>
+  <keyFields>ExternalDataSource.Actima.Table.Zones.Field.ZoneID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="aaa5b4d1-87a7-4ca0-bc4e-5318f2048a38">
+    <name>ZoneID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ZoneID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c76fa1b2-a102-4dff-a1df-9b193fca25fc">
+    <name>Name</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Name</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="95d68ae7-ad3e-4880-80e7-3dce6ece4315">
+    <name>OuterZone</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.Zones</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>OuterZone</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

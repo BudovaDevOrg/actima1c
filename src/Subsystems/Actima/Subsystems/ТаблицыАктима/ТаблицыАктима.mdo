@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd58daf0-f501-44d6-bda8-71111a8aa707">
+  <name>ТаблицыАктима</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблицы актима</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ExternalDataSource.Actima.Table.Employees</content>
+  <content>ExternalDataSource.Actima.Table.Departments</content>
+  <content>ExternalDataSource.Actima.Table.AccessCards</content>
+  <content>ExternalDataSource.Actima.Table.AllRegistrations</content>
+  <content>ExternalDataSource.Actima.Table.CardsEntity</content>
+  <content>ExternalDataSource.Actima.Table.Devices</content>
+  <content>ExternalDataSource.Actima.Table.EmployeesDetails</content>
+  <content>ExternalDataSource.Actima.Table.Registrations</content>
+  <content>ExternalDataSource.Actima.Table.Zones</content>
+  <content>ExternalDataSource.Actima.Table.EmployeesDetailsStandart</content>
+  <parentSubsystem>Subsystem.Actima</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c74f21d4-5b50-4c1c-9697-24fe2fe48274">
+  <producedTypes>
+    <refType typeId="0996c476-d40c-480b-b146-d4e38c01695e" valueTypeId="d4652ab3-bad3-41ef-a841-a05effa75cec"/>
+    <listType typeId="f483d9e5-656c-479a-8a63-22ebb4e66c8f" valueTypeId="9c33cdf3-1af3-4493-8d71-704173c3fffb"/>
+    <objectType typeId="247ef829-894e-423b-8837-04de01d5cd80" valueTypeId="f6e05a3e-005e-4ad4-985f-5eed3c0683e0"/>
+    <managerType typeId="2c06142a-c1ad-41dc-91ab-d2792251b9e1" valueTypeId="56de3475-edcf-4ec5-9ddd-913baea70df0"/>
+    <recordManagerType typeId="0cbec441-c75a-4dd9-aa5c-186a0e0356f0" valueTypeId="e4166c49-b3e3-48cb-9725-b2adcd49fdf8"/>
+    <recordSetType typeId="f03c17cd-9cca-4f6b-98f5-b322eb543b45" valueTypeId="73b92edf-b257-48ae-838a-5fb94d6b1d9f"/>
+    <recordType typeId="a1598df6-6d63-45f9-9c97-5464a5ebad4b" valueTypeId="d088451d-af59-4289-a039-27bc9fd39fbb"/>
+    <recordKeyType typeId="028e2399-82a2-4b83-998c-56f0f91bc78a" valueTypeId="2f179e8c-4615-479f-8102-7c3d90e54892"/>
+  </producedTypes>
+  <name>AccessCards</name>
+  <synonym>
+    <key>ru</key>
+    <value>Access cards</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.AccessCards</nameInDataSource>
+  <keyFields>ExternalDataSource.Actima.Table.AccessCards.Field.CardID</keyFields>
+  <presentationField>ExternalDataSource.Actima.Table.AccessCards.Field.CardNumber</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Actima.Table.AccessCards.Field.CardID</inputByString>
+  <inputByString>ExternalDataSource.Actima.Table.AccessCards.Field.CardNumber</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="0f49ac0b-d523-4d54-acf7-caffdd4a1696">
+    <name>CardID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CardID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="88263aa0-ff23-4184-b641-ff7e94e57d3a">
+    <name>CardEntityID</name>
+    <type>
+      <types>ExternalDataSourceTableRef.Actima.CardsEntity</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>CardEntityID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="67c793bd-b1e4-420a-903a-7b3e4eb9693e">
+    <name>CardNumber</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CardNumber</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="1676fd97-2484-4293-b238-e317a13eb469">
+    <name>Description</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Description</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="fa7d2354-311a-456a-bcb8-6f6f1a9f4051">
+    <name>MasterCard</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>MasterCard</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

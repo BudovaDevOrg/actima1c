@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c71d943-f122-47f7-bd5c-7344366dfe88">
+  <producedTypes>
+    <objectType typeId="2a742f95-b6a3-4518-a30f-236e7d05fb2a" valueTypeId="90bbce4e-e854-45d7-bd20-a185468db959"/>
+    <managerType typeId="93e975a3-ad97-458d-8c6f-b7d7574366ec" valueTypeId="632b98cf-1736-42f1-b788-8024038fd1b6"/>
+  </producedTypes>
+  <name>вдНастройкаВнешнихИсточниковДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка внешних источников данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вдНастройкаВнешнихИсточниковДанных.Form.Форма</defaultForm>
+  <forms uuid="075d1b0f-0688-4fa1-a168-47f79a2e0445">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

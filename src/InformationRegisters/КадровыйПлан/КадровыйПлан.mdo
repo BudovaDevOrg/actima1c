@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a0da419-e053-473a-ae8d-393795ba5283">
+  <producedTypes>
+    <selectionType typeId="75a8908a-2643-45ff-b0fc-13ef93ea1bd9" valueTypeId="54458357-6be6-47c4-a198-51cf7d1951cf"/>
+    <listType typeId="ff25876a-0b5d-4dd4-a278-b0caf316a39b" valueTypeId="7af3780c-95c3-4e02-afcb-c6e655f2a396"/>
+    <managerType typeId="d02b7254-1791-4782-8ed5-05f70d9bdd58" valueTypeId="10a109db-b27c-419b-8f3a-07e9678a3ccb"/>
+    <recordSetType typeId="cc990464-77ad-4776-b53e-a3ffe8df0a80" valueTypeId="365e4542-585b-46c9-85e5-3937af63a671"/>
+    <recordKeyType typeId="d6e3427b-c0e2-4255-a4e4-b1b51685aac2" valueTypeId="14f89d4b-1780-421d-bea5-58dfcad80aa9"/>
+    <recordType typeId="c4c8144c-fb57-470e-9eb1-269081a74840" valueTypeId="aa74a5b0-a053-424a-a3fb-9dd7dc4ec571"/>
+    <recordManagerType typeId="b090e7e1-fa39-4c16-a186-da3054f3fa59" valueTypeId="00b188f7-1813-4ca3-b6cc-e19eedefdb3c"/>
+  </producedTypes>
+  <name>КадровыйПлан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый план</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e4b08804-c5cd-4c3a-9ec5-0da18be5d397">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="28386378-eb54-4e40-8a43-0df18122d239">
+    <name>НеАктивен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e45b559b-52d3-4c55-a8bd-a5dd3ea16258">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="402ea6af-9f8b-421e-97a6-a2f98ae6b9bc">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

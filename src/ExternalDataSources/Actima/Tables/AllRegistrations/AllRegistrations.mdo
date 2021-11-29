@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cf364bf-924e-4efa-89f2-84481c511db7">
+  <producedTypes>
+    <refType typeId="5b7d42b8-d444-4389-9920-f504407d8cac" valueTypeId="5f7af34d-4bb4-4a0c-9240-af9ca8550eb9"/>
+    <listType typeId="53f61eee-0613-4463-816f-6cf05f91139f" valueTypeId="7fdd16fe-4883-41f0-9527-613e4b1d8163"/>
+    <objectType typeId="c60f5751-5387-4f6a-99c0-77ac43f5fe53" valueTypeId="a515cfd5-2328-4cc4-86fe-d7909a94fb03"/>
+    <managerType typeId="f1206648-1e5d-414a-bb70-92c3fbf000e5" valueTypeId="1e5bf660-8265-4022-a88f-245bbae2fba0"/>
+    <recordManagerType typeId="96336947-90c1-40bb-a9d0-99eeaae5c7b9" valueTypeId="cee27cc0-34fb-4bfd-aabe-224801bd843e"/>
+    <recordSetType typeId="9d8759ad-e92a-4030-8efc-1c8b64f90dd4" valueTypeId="eba4e4f6-06f8-4595-9eb7-d669d1ab5937"/>
+    <recordType typeId="8495a94d-8d1a-4690-80c4-2aa918b26d79" valueTypeId="d9282c2c-3720-45a0-98eb-43a7ade1dc88"/>
+    <recordKeyType typeId="55965f82-4b3f-4c3f-be26-f0fee73e9bd0" valueTypeId="6f45a62e-1e69-48ac-9672-f1014dd9f975"/>
+  </producedTypes>
+  <name>AllRegistrations</name>
+  <synonym>
+    <key>ru</key>
+    <value>All registrations</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.AllRegistrations</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="1c1d6186-2310-4c50-865c-91a0edf88fcc">
+    <name>DeviceID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>DeviceID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="9c4bf57d-51f7-4fb8-84e4-d3387201ec02">
+    <name>OriginalEntityID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>OriginalEntityID</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="98d7b08a-cdbc-41d7-ba28-d92ea1f9489d">
+    <name>EventTime</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>EventTime</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="352d6833-5c78-446d-ae0a-e24dbe980767">
+    <name>CardNumber</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CardNumber</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="a0ac1264-02d4-4380-af1c-2b5066e552c1">
+    <name>EventCode</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>EventCode</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="b8953a11-3797-4c7b-9134-51d5204bbf82">
+    <name>Description</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Description</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

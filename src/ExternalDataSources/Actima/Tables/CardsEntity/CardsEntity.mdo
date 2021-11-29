@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="486ad6c7-f6b2-4fd7-bcce-f35735861d32">
+  <producedTypes>
+    <refType typeId="8f701d78-c472-4b94-9c17-6adb2624ee45" valueTypeId="60bc1e4b-ccba-4a7b-9e2e-5298f4d80941"/>
+    <listType typeId="59e32420-e66d-408e-b04c-49aedd9a9ac9" valueTypeId="06773fde-a48d-452d-8700-63b518882a65"/>
+    <objectType typeId="6d9ab6b6-1f92-42d9-8134-a9590e980d70" valueTypeId="49bcc781-deaf-4dd7-aa8f-d15de9128d04"/>
+    <managerType typeId="d70fb7a5-9f62-497f-87cc-cd1e7a0ef86d" valueTypeId="d4afe9be-ac82-4ea6-9ff4-3ff919fc51e5"/>
+    <recordManagerType typeId="978defca-77a2-4ac4-b950-d9dcb28dec29" valueTypeId="512e81a5-7999-4a74-9e33-a486b03fe3ac"/>
+    <recordSetType typeId="29bb0e54-c4fe-4f03-80cd-f6b2754268ee" valueTypeId="80abdb65-a488-45fa-9d5c-d45403290000"/>
+    <recordType typeId="90240076-9694-463d-9738-d8a77e6ce483" valueTypeId="1ba8b836-5e88-449a-86dc-fdb63ac8ff53"/>
+    <recordKeyType typeId="f9c9b8ac-43a2-4f12-bd84-a92f5d446acb" valueTypeId="0cfab608-2a89-405f-94ce-c5a2d8f9c61b"/>
+  </producedTypes>
+  <name>CardsEntity</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cards entity</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Actima</parentDataSource>
+  <nameInDataSource>dbo.CardsEntity</nameInDataSource>
+  <keyFields>ExternalDataSource.Actima.Table.CardsEntity.Field.CardEntityID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Actima.Table.CardsEntity.Field.CardEntityID</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="c1c71a92-a14b-4a32-9f73-b86a3820d8bf">
+    <name>CardEntityID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CardEntityID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="15e59650-0003-42cc-a137-eaddb066b980">
+    <name>OwnerID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>OwnerID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="3dc61b32-6fbf-4061-9a4d-efeea8c156b3">
+    <name>OwnerType</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>OwnerType</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="33bdc4a8-f42d-4728-a2ba-7d688edc1ff2">
+    <name>StartDate</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>StartDate</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7548e67a-2a8d-4e6f-9930-03c66a97be8e">
+    <name>EndDate</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>EndDate</nameInDataSource>
+  </tableFields>
+</mdclass:Table>
